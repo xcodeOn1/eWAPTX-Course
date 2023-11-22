@@ -2,7 +2,7 @@ import subprocess
 import base64
 import urllib.parse
 
-
+#Script BY @xcode0x 
 def get_ysoserial_payload(command, payloadType, path_to_ysoserial='ysoserial.jar'):
     cmd = [
         'java',
